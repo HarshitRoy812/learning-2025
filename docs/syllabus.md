@@ -4,7 +4,7 @@
 This program prepares aspiring data analysts through a comprehensive journey across core IT foundations, software engineering workflows, DevOps, and Python development. Each module introduces applied labs and portfolio projects that build toward analytical mastery.
 
 ## Structure at a Glance
-- **Duration:** 28 weeks (seven 4-week modules)
+- **Duration:** 32 weeks (eight 4-week modules)
 - **Pacing:** Two instructor-led sessions per week, one lab, and one self-study sprint
 - **Assessment:** Weekly quizzes, lab submissions, milestone presentations, and a capstone project
 - **Tools Covered:** Command line, Git/GitHub, Linux, Docker, cloud platforms, Jupyter, SQL clients, BI dashboards
@@ -45,6 +45,11 @@ This program prepares aspiring data analysts through a comprehensive journey acr
    - Pythonic implementations emphasizing readability and testability
    - Refactoring labs comparing procedural vs. object-oriented approaches
    - Capstone integration of patterns across a multi-component system
+8. **SOLID Design Principles**
+   - Deep dive into single responsibility, open/closed, Liskov substitution, interface segregation, and dependency inversion
+   - Architectural kata sessions that reinforce modular design and refactoring heuristics
+   - Protocol-oriented programming exercises with static type checking and tests
+   - Final integration lab applying SOLID across services, adapters, and orchestration layers
 
 ## Capstone
 Learners tackle a full analytics lifecycle project: define a business problem, ingest data, build pipelines, analyze findings, and deliver stakeholder-ready visualizations. Review boards evaluate technical accuracy, reproducibility, and narrative clarity.

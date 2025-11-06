@@ -8,7 +8,8 @@
 - **Milestone 4 – Python Proficiency (Week 16):** Deliver a fully tested Python application
 - **Milestone 5 – Advanced Systems (Week 20):** Optimize code performance and packaging strategy
 - **Milestone 6 – Design Patterns Mastery (Week 24):** Implement a multi-pattern Python service with documentation
-- **Milestone 7 – Analytics Portfolio (Week 28):** Publish a comprehensive data analysis project
+- **Milestone 7 – SOLID Architecture (Week 28):** Refactor a service suite to align with SOLID principles and automated tests
+- **Milestone 8 – Analytics Portfolio (Week 32):** Publish a comprehensive data analysis project
 
 ## Weekly Cadence
 | Day | Focus | Activities |
