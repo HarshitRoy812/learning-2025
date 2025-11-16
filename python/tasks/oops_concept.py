@@ -1,54 +1,54 @@
-# class Car:
+class Car:
     
-#     def __init__(self,model,color):
-#         self.__model = model
-#         self.__color = color
+    def __init__(self,model,color):
+        self.__model = model
+        self.__color = color
     
-#     def drive(self):
-#         print(f"A {self.__color} {self.__model} is driving")
+    def drive(self):
+        print(f"A {self.__color} {self.__model} is driving")
         
 
-# lambo = Car("Lambo Hurrican","Orange")
+lambo = Car("Lambo Hurrican","Orange")
 
 
-# lambo.drive()
+lambo.drive()
 
-# lambo.__model = "Audi"
+lambo.__model = "Audi"
 
-# lambo.drive()
+lambo.drive()
         
         
-# ____ ABSTRACTION
+____ ABSTRACTION
 
-# class BurgerMachine:
+class BurgerMachine:
     
-#     def __init__(self,type):
-#         self.__type = type
+    def __init__(self,type):
+        self.__type = type
         
-#     def makeBurger(self):
-#         self.__addPatty()
-#         self.__addVeggies()
-#         self.__addMayo()
+    def makeBurger(self):
+        self.__addPatty()
+        self.__addVeggies()
+        self.__addMayo()
         
-#         print(f"Your {self.__type} burger is ready")
+        print(f"Your {self.__type} burger is ready")
         
-#     def __addPatty(self):
-#         print("Patty added")
+    def __addPatty(self):
+        print("Patty added")
         
-#     def __addVeggies(self):
-#         print("Veggies added")
+    def __addVeggies(self):
+        print("Veggies added")
         
-#     def __addMayo(self):
-#         print("Mayo added")
+    def __addMayo(self):
+        print("Mayo added")
         
-# chickenBurger = BurgerMachine("Chicken")
-# chickenBurger.makeBurger()
+chickenBurger = BurgerMachine("Chicken")
+chickenBurger.makeBurger()
 
-# paneerBurger = BurgerMachine("Paneer")
-# paneerBurger.makeBurger()
+paneerBurger = BurgerMachine("Paneer")
+paneerBurger.makeBurger()
 
 
-## INHERITANCE
+# INHERITANCE
 
 class Animal:
     
@@ -81,3 +81,30 @@ fish_1.introduce()
 dog_1 = Dog()
 dog_1.introduce()
     
+    
+# POLYMORPHISM
+
+class Person:
+    pass
+
+class Teacher(Person):
+    
+    def __init__(self):
+        pass
+    
+    def action(self):
+        print("Teaches students")
+        
+class Husband(Person):
+    
+    def __init__(self):
+        pass
+    
+    def action(self):
+        print("Takes care of children")
+        
+t = Teacher()
+t.action()
+
+h = Husband()
+h.action()
