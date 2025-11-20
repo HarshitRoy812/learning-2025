@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify,request
 from flask_cors import CORS
 
 app = Flask(__name__)
@@ -7,6 +7,17 @@ CORS(app)
 # Creating a temporary API key
 api_key = "myapikey"
 
+@app.before_request
+def verifyAPIKey():
+    
+    if request.method == "OPTIONS":
+        return None
+    
+    if request.endpoint in ("home","contact"):
+        key = request.headers.get("X-API-KEY")
+        
+        if (key != api_key):
+            return jsonify({"error" : "Unauthorized access!"}),401
 
 
 @app.route('/', methods=["GET"])
